@@ -1,0 +1,30 @@
+:root{
+    /*Fontes do projeto*/
+    --fonte-padrao: 'Raleway', sans-serif;
+
+    /*Cores padrão do projeto*/
+    --azul-padrao:#2A7AE4;
+    --preto-padrao:#464646;
+    --branco-padrao: #ffffff;
+    --branco-secundario: #f5f5f5;
+
+
+}
+body{
+    
+    margin-left: 152px;
+    margin-right: 152px;
+    
+}
+
+
+.botao{
+    align-items: center;
+    background-color: var(--azul-padrao);
+    box-sizing: border-box;
+    color: var(--branco-padrao);
+    display: block;
+    font-size: 1rem;
+    padding: 1rem;
+    text-align: center;
+}

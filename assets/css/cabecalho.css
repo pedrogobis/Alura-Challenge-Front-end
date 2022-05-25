@@ -1,0 +1,37 @@
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+
+}
+
+.cabecalho__botao-login{
+    background-color: var(--branco-padrao);
+    border: 1px solid var(--azul-padrao);
+    color: var(--azul-padrao);
+    height: 51px;
+    width: 182px;
+}
+
+.cabecalho__direita{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 32px;
+    
+}
+
+.cabecalho__busca{
+    align-items: baseline;
+}
+
+.cabecalho__campodebusca{
+    background: var(--branco-secundario) ;
+    border-radius: 20px;
+    gap: 8px;
+    height: 40px;
+    padding: 8px 16px 8px 16px;
+    width: 393px;
+}
